@@ -1,0 +1,164 @@
+﻿body
+{
+    font-family: Arial;
+    font-size: 14px;   
+}
+
+div.demoMenu
+{
+    width: 100%;
+    text-align: center;
+    margin: 180px auto;
+}
+
+div#welcomeBanner
+{
+    width: 100%;
+    font-size: 20px;
+    font-weight:bold;
+    text-align: center;
+    color: #8C5D20;
+    text-align: center; 
+    margin: 120px auto 80px auto;   
+}
+
+div#welcomeBanner span#welcome
+{
+    font-size: 28px;
+    color: #1A2569; 
+}
+
+div#welcomeBanner span#author
+{
+    color: #1A2569;   
+}
+
+div#demoNote
+{
+    width: 100%;
+    font-size: 16px;
+    font-weight:bold;
+    text-align: center;
+}
+        
+/*** Grid styles ***/
+.datatable
+{
+    width:90%;
+    margin:10px auto;
+    border-collapse:collapse;
+    border:1px solid #cdcdcd;
+    font-size: 12px !important;
+}
+
+/*** Header styles ***/
+.datatable th
+{
+    background-color: #DEE4E6;
+    height: 24px;
+    padding: 5px
+}
+
+.row
+{
+    height: 24px;
+    background-color: #fff;
+}
+
+.alt-row
+{
+    height: 24px;
+    background-color: #f1f1f1;
+}
+        
+.datatable td
+{
+    padding: 5px
+}
+
+.setting
+{
+    width:90%;
+    margin:10px auto;
+    padding: 5px;
+}
+
+.setting table
+{
+    width: 100%;
+}
+
+.setting table td
+{
+    padding: 5px;
+}
+
+.setting table td.label
+{
+    text-align: right;
+}
+
+.setting table td.value
+{
+    text-align: left;
+}
+
+a
+{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.detailFieldSet
+{
+    border-right-width: 2px; 
+    border-collapse: collapse;  
+    padding: 5px;
+}
+
+.detailFieldSet img
+{
+    height: 200px;
+}
+
+
+.detailTable
+{
+    border: 0px;
+    width: 100%;
+}
+
+.detailTable td.label
+{
+    text-align: right;
+    width: 40%;
+    padding: 5px;
+    border-width: 0px;
+}
+
+.detailTable td.value
+{
+    text-align: left;
+    width: 60%;
+    padding: 5px;
+    font-weight:bold;
+    border-width: 0px;
+}
+
+.noteTable
+{
+    border: 0px;
+    width: 100%;
+}
+
+.noteTable textarea.noteArea
+{
+    height: 142px;
+    width: 100%;
+}
+
+.noteTable span#noteLimit
+{
+    font-style: Italic;
+    text-align: center;
+}
